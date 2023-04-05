@@ -19,7 +19,7 @@ print(f"Number of repos: {len(list_of_repos)}")
 
 first_repo = list_of_repos[0]
 
-for key,value in first_repo.items():
+for key in first_repo():
     print(key)
 
 
